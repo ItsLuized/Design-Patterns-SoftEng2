@@ -2,8 +2,8 @@ class Wheels:
 
     def __init__(self):
         print("Creando Wheels")
-        __precio = 0
-        __hora = ''
+        self.__precio = 0
+        self.__hora = ''
 
     @property
     def precio(self):
