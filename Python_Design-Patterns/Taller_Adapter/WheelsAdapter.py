@@ -1,19 +1,25 @@
-from MedioTransporte import *
-from Wheels import *
+from Taller_Adapter.MedioTransporte import MedioTransporte
+from Taller_Adapter.Wheels import Wheels
+
 
 class WheelsAdapter(MedioTransporte):
 
     def __init__(self):
-        self.Wheels = Wheels()
+        super().__init__()
+        self._wheels = Wheels()
 
-    def getCosto(self):
-        return Wheels.getPrecio()
-    
-    def setCosto(self, costo):
-        Wheels.setPrecio(self, costo)
+    @property
+    def costo(self):
+        return self._wheels.precio
 
-    def getHorario(self):
-        return Wheels.getHora()
+    @costo.setter
+    def costo(self, costo):
+        self._wheels.precio = costo
 
-    def setHorario(self, horario):
-        Wheels.setHora(self, horario)
+    @property
+    def horario(self):
+        return self._wheels.hora
+
+    @horario.setter
+    def horario(self, horario):
+        self._wheels.hora = horario

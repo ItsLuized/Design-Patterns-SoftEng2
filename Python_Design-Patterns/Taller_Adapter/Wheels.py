@@ -1,19 +1,22 @@
-class Wheels():
-
-    __precio = 0
-    __hora = ''
+class Wheels:
 
     def __init__(self):
         print("Creando Wheels")
+        __precio = 0
+        __hora = ''
 
-    def getPrecio(self):
-        return __precio 
-    
-    def setPrecio(self,precio):
+    @property
+    def precio(self):
+        return self.__precio
+
+    @precio.setter
+    def precio(self, precio):
         __precio = precio
 
-    def getHora(self):
-        return __hora
+    @property
+    def hora(self):
+        return self.__hora
 
-    def setHora(self, hora):
+    @hora.setter
+    def hora(self, hora):
         __hora = hora
