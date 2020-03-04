@@ -1,8 +1,8 @@
 class MedioTransporte():
 
     def __init__(self):
-        _costo = 0
-        _horario = ''
+        self._horario = ''
+        self._costo = 0
 
     @property
     def costo(self):
@@ -10,12 +10,12 @@ class MedioTransporte():
 
     @costo.setter
     def costo(self, costo):
-        self._costo = costo
+        _costo = costo
 
     @property
     def horario(self):
-        pass
+        return self._horario
 
     @horario.setter
     def horario(self, horario):
-        pass
+        _horario = horario
