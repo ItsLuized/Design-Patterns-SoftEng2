@@ -1,4 +1,4 @@
-package Taller_Adapter;
+package TallerAdapter;
 
 public abstract class MedioTransporte {
 

@@ -1,13 +1,14 @@
-package Taller_Adapter;
+package TallerAdapter;
 
-public class Bus extends MedioTransporte {
+public class Tren extends MedioTransporte {
 
     private double costo;
     private String horario;
 
-    public Bus() {
+
+    public Tren() {
         super();
-        System.out.println("Creando Bus");
+        System.out.println("Creando Tren");
     }
 
     @Override

@@ -1,4 +1,4 @@
-package Taller_Adapter;
+package TallerAdapter;
 
 import javax.swing.*;
 
