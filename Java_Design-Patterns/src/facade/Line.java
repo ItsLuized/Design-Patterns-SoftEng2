@@ -1,44 +1,41 @@
 package facade;
 
 public class Line {
-    private Point point1;
-    private Point point2;
+    private Point origin;
+    private Point end;
 
-    public Line(Point point1, Point point2) {
-        this.point1 = point1;
-        this.point2 = point2;
+    public Line(Point origin, Point end) {
+        this.origin = origin;
+        this.end = end;
     }
 
     public void move(double dx, double dy) {
-        this.point1.move(dx, dy);
-        this.point2.move(dx, dy);
+        this.origin.move(dx, dy);
+        this.end.move(dx, dy);
     }
 
     public void rotate(int angle) {
-        this.point2.rotate(angle, this.point1);
+        this.end.rotate(angle, this.origin);
     }
 
-    public Point getPoint1() {
-        return point1;
+    public Point getOrigin() {
+        return origin;
     }
 
-    public void setPoint1(Point point1) {
-        this.point1 = point1;
+    public void setOrigin(Point origin) {
+        this.origin = origin;
     }
 
-    public Point getPoint2() {
-        return point2;
+    public Point getEnd() {
+        return end;
     }
 
-    public void setPoint2(Point point2) {
-        this.point2 = point2;
+    public void setEnd(Point end) {
+        this.end = end;
     }
 
     @Override
     public String toString() {
-        return "Line{" +
-                "point1=" + point1 +
-                ", point2=" + point2 +
-                '}';
+        return "origin is " + this.origin + ", end is " + this. end;
     }
 }
