@@ -1,85 +1,65 @@
 # idea files
 /.idea/
-/**/.idea/
-#/Java_Design-Patterns/.idea/
-#/Python_Design-Patterns/.idea/
+/Java_Design-Patterns/.idea/
+/Python_Design-Patterns/.idea/
 
 # Byte-compiled / optimized / DLL files
-**/__pycache__/
-**/*.py[cod]
-**/*$py.class
+/Python_Design-Patterns/__pycache__/
+/Python_Design-Patterns/*.py[cod]
+/Python_Design-Patterns/*$py.class
 
 # C extensions
-**/*.so
+/Python_Design-Patterns/*.so
 
 # Distribution / packaging
-**/.Python
-**/build/
-**/develop-eggs/
-**/dist/
-**/downloads/
-**/eggs/
-**/.eggs/
-**/lib/
-**/lib64/
-**/parts/
-**/sdist/
-**/var/
-**/wheels/
-**/pip-wheel-metadata/
-**/share/python-wheels/
-**/*.egg-info/
-**/.installed.cfg
-**/*.egg
+/Python_Design-Patterns/.Python
+/Python_Design-Patterns/build/
+/Python_Design-Patterns/develop-eggs/
+/Python_Design-Patterns/dist/
+/Python_Design-Patterns/downloads/
+/Python_Design-Patterns/eggs/
+/Python_Design-Patterns/.eggs/
+/Python_Design-Patterns/lib/
+/Python_Design-Patterns/Python_Design-Patterns/lib64/
+/Python_Design-Patterns/parts/
+/Python_Design-Patterns/sdist/
+/Python_Design-Patterns/var/
+/Python_Design-Patterns/wheels/
+/Python_Design-Patterns/pip-wheel-metadata/
+/Python_Design-Patterns/share/python-wheels/
+/Python_Design-Patterns/*.egg-info/
+/Python_Design-Patterns/.installed.cfg
+/Python_Design-Patterns/*.egg
 MANIFEST
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
-**/*.manifest
-**/*.spec
+/Python_Design-Patterns/*.manifest
+/Python_Design-Patterns/*.spec
 
 # Installer logs
-**/pip-log.txt
-**/pip-delete-this-directory.txt
+/Python_Design-Patterns/pip-log.txt
+/Python_Design-Patterns/pip-delete-this-directory.txt
 
 # Unit test / coverage reports
-**/htmlcov/
-**/.tox/
-**/.nox/
-**/.coverage
-**/.coverage.*
-**/.cache
-**/nosetests.xml
-**/coverage.xml
-**/*.cover
-**/*.py,cover
-**/.hypothesis/
-**/.pytest_cache/
-**/cover/
+/Python_Design-Patterns/htmlcov/
+/Python_Design-Patterns/.tox/
+/Python_Design-Patterns/.nox/
+/Python_Design-Patterns/.coverage
+/Python_Design-Patterns/.coverage.*
+/Python_Design-Patterns/.cache
+/Python_Design-Patterns/nosetests.xml
+/Python_Design-Patterns/coverage.xml
+/Python_Design-Patterns/*.cover
+/Python_Design-Patterns/*.py,cover
+/Python_Design-Patterns/.hypothesis/
+/Python_Design-Patterns/.pytest_cache/
+/Python_Design-Patterns/cover/
 
 # Translations
-**/*.mo
-**/*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-**/.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
+/Python_Design-Patterns/*.mo
+/Python_Design-Patterns/*.pot
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -107,32 +87,22 @@ ipython_config.py
 celerybeat-schedule
 celerybeat.pid
 
-# SageMath parsed files
-**/*.sage.py
-
 # Environments
-**/.env
-**/.venv
-**/env/
-**/venv/
-**/ENV/
-**/env.bak/
-**/venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
+/Python_Design-Patterns/.env
+/Python_Design-Patterns/.venv
+/Python_Design-Patterns/env/
+/Python_Design-Patterns/venv/
+/Python_Design-Patterns/ENV/
+/Python_Design-Patterns/env.bak/
+/Python_Design-Patterns/venv.bak/
 
 # mkdocs documentation
-**/site
+/Python_Design-Patterns/site
 
 # mypy
-**/.mypy_cache/
-**/.dmypy.json
-**/dmypy.json
+/Python_Design-Patterns/.mypy_cache/
+/Python_Design-Patterns/.dmypy.json
+/Python_Design-Patterns/dmypy.json
 
 # Pyre type checker
 **/.pyre/
@@ -149,26 +119,24 @@ celerybeat.pid
 /Java_Design-Patterns/out/
 
 # Compiled class file
-**/*.class
+/Java_Design-Patterns/*.class
 
 # Log file
-**/*.log
+/Java_Design-Patterns/*.log
 
 # BlueJ files
-**/*.ctxt
-
-
+/Java_Design-Patterns/*.ctxt
 
 # Package Files #
-**/*.jar
-**/*.war
-**/*.nar
-**/*.ear
-**/*.zip
-**/*.tar.gz
-**/*.rar
+/Java_Design-Patterns/*.jar
+/Java_Design-Patterns/*.war
+/Java_Design-Patterns/*.nar
+/Java_Design-Patterns/*.ear
+/Java_Design-Patterns/*.zip
+/Java_Design-Patterns/*.tar.gz
+/Java_Design-Patterns/*.rar
 
 ### IntelliJ IDEA ###
-**/*.iws
-**/*.iml
-**/*.ipr
+/Java_Design-Patterns/*.iws
+/Java_Design-Patterns/*.iml
+/Java_Design-Patterns/*.ipr
