@@ -1,4 +1,4 @@
-package Adapter;
+package adapter;
 
 public abstract class Motor {
     abstract public void encender();
