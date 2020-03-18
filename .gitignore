@@ -1,0 +1,64 @@
+### IntelliJ IDEA & Pycharm ###
+/.idea/
+/Java_Design-Patterns/.idea/
+/Python_Design-Patterns/.idea/
+
+
+### JAVA ###
+
+### IntelliJ ###
+/Java_Design-Patterns/*.iml
+/Java_Design-Patterns/*.ipr
+/Java_Design-Patterns/*.iws
+
+# Compiled class file
+/Java_Design-Patterns/*.class
+# Log file
+/Java_Design-Patterns/*.log
+
+# Package Files #
+/Java_Design-Patterns/*.jar
+/Java_Design-Patterns/*.war
+/Java_Design-Patterns/*.nar
+/Java_Design-Patterns/*.ear
+/Java_Design-Patterns/*.zip
+/Java_Design-Patterns/*.tar.gz
+/Java_Design-Patterns/*.rar
+
+/Java_Design-Patterns/out
+
+**/HELP.md
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+/Python_Design-Patterns/__pycache__/
+/Python_Design-Patterns/*.py[cod]
+/Python_Design-Patterns/*$py.class
+
+# C extensions
+/Python_Design-Patterns/*.so
+
+# Distribution / packaging
+/Python_Design-Patterns/.Python
+/Python_Design-Patterns/build/
+/Python_Design-Patterns/develop-eggs/
+/Python_Design-Patterns/dist/
+/Python_Design-Patterns/downloads/
+/Python_Design-Patterns/eggs/
+/Python_Design-Patterns/.eggs/
+/Python_Design-Patterns/lib/
+/Python_Design-Patterns/Python_Design-Patterns/lib64/
+/Python_Design-Patterns/parts/
+/Python_Design-Patterns/sdist/
+/Python_Design-Patterns/var/
+/Python_Design-Patterns/wheels/
+/Python_Design-Patterns/pip-wheel-metadata/
+/Python_Design-Patterns/share/python-wheels/
+/Python_Design-Patterns/*.egg-info/
+/Python_Design-Patterns/.installed.cfg
+/Python_Design-Patterns/*.egg
+MANIFEST
