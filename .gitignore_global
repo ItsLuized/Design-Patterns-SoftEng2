@@ -137,12 +137,13 @@ celerybeat.pid
 # pytype static type analyzer
 **/.pytype/
 
-### JAVA ###
+####### JAVA #######
 **/HELP.md
 **/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+*out/
 
 # Compiled class file
 *.class
