@@ -1,5 +1,5 @@
 # idea files
-*.idea
+*/.idea
 
 # Byte-compiled / optimized / DLL files
 **/__pycache__/
@@ -166,6 +166,6 @@ celerybeat.pid
 **/.rar
 
 ### IntelliJ IDEA ###
-*.iws
-*.iml
-*.ipr
+*/.iws
+*/.iml
+*/.ipr
