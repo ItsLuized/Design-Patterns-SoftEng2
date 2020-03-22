@@ -1,10 +1,10 @@
 package tallerdecorator;
 
-public class BusNovena extends BusInfo {
+public class BusRuta extends BusInfo {
 
     private String ruta;
 
-    public BusNovena(Bus busInfo, String ruta) {
+    public BusRuta(Bus busInfo, String ruta) {
         super(busInfo);
         this.ruta = ruta;
     }
