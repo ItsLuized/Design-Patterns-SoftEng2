@@ -1,7 +1,5 @@
 package tallersingleton;
 
-import singleton.Singleton;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 
