@@ -8,9 +8,9 @@ Design Patterns made in Java and Python.
 * Composite --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/composite)<!-- | [Python]()-->
 * Facade --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/facade)<!-- | [Python]()--> 
 * Decorator --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/decorator) <!-- | [Python]()--> 
-* Proxy
-* Flyweight
-* Singleton --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/singleton)
+* Proxy --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/proxy) <!-- | [Python]()-->
+* Flyweight --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/flyweight) <!-- | [Python]()-->
+* Singleton --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/singleton) <!-- | [Python]()-->
 
 ## Design Pattern Exercise
 
@@ -18,6 +18,6 @@ Design Patterns made in Java and Python.
 * Composite --> [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallercomposite)<!-- | [Python]()-->
 * Facade <!--[Java]() | [Python]()--> 
 * Decorator [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallerdecorator)<!-- | [Python]()-->  
-* Proxy
+* Proxy [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallerproxy)<!-- | [Python]()-->
 * Flyweight
 * Singleton [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallersingleton)
