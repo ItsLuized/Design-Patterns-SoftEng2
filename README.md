@@ -21,3 +21,5 @@ Design Patterns made in Java and Python.
 * Proxy [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallerproxy)<!-- | [Python]()-->
 * Flyweight
 * Singleton [Java](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/tallersingleton)
+
+### [Mid Term](https://github.com/ItsLuized/Design-Patterns-SoftEng2/tree/master/Java_Design-Patterns/src/parcialii)
