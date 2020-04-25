@@ -1,5 +1,6 @@
 package parcialii.controller;
 
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 import java.math.BigInteger;
@@ -8,6 +9,16 @@ import static org.junit.Assert.*;
 
 public class PruebasIntegracionySistema {
 
+    /**
+     * Registrar el usuario (necesario para todos los tests)
+     * Lo hace antes de todos los test, para no tener que repetir la operacion una vez por metodo
+     */
+    @BeforeClass
+    public static void setup(){
+        Proxy proxy = Proxy.getInstance();
+        proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
+
+    }
 
     /**
      * Acceder al sistema
@@ -16,9 +27,7 @@ public class PruebasIntegracionySistema {
     public void ingresaralSistema() {
 
         try {
-
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
 
             BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
@@ -40,9 +49,8 @@ public class PruebasIntegracionySistema {
         try {
 
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
-            BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
+            BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
             //Protocolo nombre de método, cantidad de parámetros, tipo, valor,
 
@@ -79,7 +87,6 @@ public class PruebasIntegracionySistema {
         try {
 
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
 
             BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
@@ -122,7 +129,6 @@ public class PruebasIntegracionySistema {
 
 
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
 
             BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
@@ -174,7 +180,7 @@ public class PruebasIntegracionySistema {
         try {
 
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
+
             // Crear el contenedor Chia
             proxy.crearContenedor("Chia");
             BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
@@ -231,7 +237,7 @@ public class PruebasIntegracionySistema {
         try {
 
             Proxy proxy = Proxy.getInstance();
-            proxy.registerUser("juangarru@unisabana.edu.co", "123456789");
+            
 
             BigInteger primo = proxy.accederSistema("juangarru@unisabana.edu.co", "123456789", "20.4.3.1");
 
